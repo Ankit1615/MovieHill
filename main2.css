@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#new img,#Trailer img,#Upcoming img{
+    width: 100%;
+    cursor: pointer;   
+  
+}
+
+.col-sm-6 .well h5{
+    font-size: 18px!important;  
+}
+
+.col-md-6 .well h5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center; 
+}
+
+
+#new .col-sm-6 .well,#Trailer .col-sm-6 .well,#Upcoming .col-sm-6 .well,#movies .col-sm-6 .well{
+    margin-right:-10px ;  
+    margin-left:-10px ;  
+
+}
+
+      #new .col-md-6 .well,#Trailer .col-md-6 .well,#Upcoming .col-md-6 .well{
+        height: 380px;     
+        padding-top: 15px;       
+    }
+
+    #new .col-md-6 img,#Trailer .col-md-6 img,#Upcoming .col-md-6 img{
+        height: 240px!important;
+            
+    }
+
+ .col-md-6 .well{
+border: 3px solid white;
+
+}
+
+
+#movie img{
+    border: 3px solid rgb(212, 86, 86);
+    height: 600px!important;
+
+}
+
+
+.col-md-8{
+    border: 3px solid rgb(23, 196, 253);
+    border-left: none;
+    height: 600px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+
+
+
+
+#movies img{
+    width: 100%;
+    cursor: pointer;   
+  
+}
+
+        #movies .col-md-6 .well{
+        height: 390px;     
+        padding-top: 15px!important;
+     
+    }
+    
+    #movies .col-md-6 img{
+        height: 240px!important;
+     
+    }
+
+
+#movies .col-md-6 .well{
+border: 3px solid white;
+}
+
+
+@media only screen and (max-device-width: 764px) 
+{
+    
+    
+#movie img{
+    border: 3px solid rgb(212, 86, 86); 
+    height: 600px;
+    width: 100%;
+
+}
+
+
+.col-md-8{
+    border: 3px solid rgb(23, 196, 253)!important;
+    width: 100%;
+    height: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+
+}
+
+.col-md-8{
+    border: 3px solid rgb(23, 196, 253);
+    border-left: none;
+    height: 600px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+
+}
+#tra
+{
+
+    transition-delay: 5s;
+  
+    color: tomato;
+}
+

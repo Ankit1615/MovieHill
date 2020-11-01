@@ -1,0 +1,46 @@
+#movies img{
+    width: 100%;
+    cursor: pointer;   
+  
+}
+.well h5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+@media(min-width:960px)
+{
+        #movies .col-md-3 .well{
+        height: 390px;     
+        padding-top: 15px!important;
+     
+    }
+    
+    #movies .col-md-3 img{
+        height: 240px;
+     
+    }
+}
+
+#movies .col-md-3 .well{
+border: 3px solid white;
+}
+
+
+#movie img{
+    border: 3px solid rgb(212, 86, 86);
+    height: 600px;
+}
+
+
+.col-md-8{
+    border: 3px solid rgb(23, 196, 253);
+    border-left: none;
+    height: 600px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+.dbtn
+{
+  float: right;
+}
